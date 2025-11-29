@@ -1,100 +1,55 @@
-🛠️ FixMyFile
+# 🛠️ FixMyFile
 
-FixMyFile is an all-in-one online toolkit for working with files — convert, compress, edit, merge, split, extract, and more. It supports PDF, images, and videos with a fast and user-friendly interface.
+[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
+[![License](https://img.shields.io/badge/license-MIT-blue)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange)]()
 
-🚀 Features
-📄 PDF Tools
+FixMyFile is an all-in-one online toolkit for working with files. It supports powerful operations on PDFs, images, and videos with a fast, intuitive interface.
 
-Merge PDFs
+---
 
-Split PDFs
+## ✨ Features
 
-Compress & reduce file size
+### 📄 PDF Tools
+- Merge PDFs  
+- Split PDFs  
+- Compress & reduce size  
+- Convert PDF ↔ Images  
+- Extract text (OCR)  
+- Repair corrupted PDF files  
 
-Convert PDF to images (JPG/PNG)
+### 🖼️ Image Tools
+- Resize images  
+- Compress images  
+- Convert formats (JPG, PNG, WEBP, etc.)  
+- Crop / rotate / flip  
+- Background removal  
+- AI upscale / enhancement  
 
-Convert images to PDF
+### 🎥 Video Tools
+- Compress video  
+- Cut / trim  
+- Convert formats  
+- Extract audio  
+- Change resolution & bitrate  
 
-Extract text (OCR)
+---
 
-Unlock/repair corrupted PDF files
+## 🧠 How It Works
+1. Upload or drag-and-drop your file  
+2. Select the tool or conversion you want  
+3. Processing happens locally or server-side  
+4. Download your processed file instantly  
 
-🖼️ Image Tools
-
-Resize images
-
-Compress images
-
-Convert formats (JPG, PNG, WEBP, etc.)
-
-Crop / rotate / flip
-
-Remove background
-
-Enhance / AI upscale
-
-🎥 Video Tools
-
-Compress video
-
-Trim / cut
-
-Convert formats (MP4, MOV, AVI, etc.)
-
-Extract audio
-
-Change resolution & bitrate
-
-🎯 Vision
-
-Make file editing accessible, simple, and free — for students, professionals, developers, designers, and everyday users.
-
-🧠 How It Works
-
-Upload a file
-
-Choose the desired action
-
-The tool processes your file in browser or via server functions
-
-Download the transformed file
-
-No login required — no data stored permanently.
-
-🧰 Tech Stack (example)
-
-Frontend: HTML, CSS, JavaScript / React / Next.js
-
-Backend: Node.js / Python (if applicable)
-
-Processing APIs / libraries: FFmpeg, pdf-lib, pillow, etc.
-(You can edit this to fit your actual stack)
-
-🗂️ Project Structure
-fixmyfile/
-│
-├─ public/
-├─ src/
-│  ├─ components/
-│  ├─ utils/
-│  ├─ pages/
-│  └─ styles/
-├─ README.md
-└─ package.json
+> ⚠️ No stored files — privacy guaranteed!
 
 
-(Modify depending on your setup)
 
-🤝 Contributing
+---
 
-Pull requests are welcome!
-For major changes, please open an issue first to discuss what you’d like to change.
-
-📩 Contact
-
-If you have suggestions, new tools, or improvements, feel free to reach out.
-
-💙 Credits
-
-Created by h3y-sam
-Made with love for the productivity of users everywhere.
+## 📦 Installation & Setup
+```bash
+git clone https://github.com/h3y-sam/fixmyfile.git
+cd fixmyfile
+npm install
+npm start
