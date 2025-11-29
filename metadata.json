@@ -1,0 +1,8 @@
+{
+  "name": "FixMyFile",
+  "description": "The ultimate all-in-one file editing platform. PDF, Video, Image, OCR, and AI tools.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
